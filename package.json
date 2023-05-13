@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/gastonfournier/external-node-package/issues"
   },
-  "homepage": "https://github.com/gastonfournier/external-node-package#readme"
+  "homepage": "https://github.com/gastonfournier/external-node-package#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
 }
