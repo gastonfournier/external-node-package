@@ -1,0 +1,23 @@
+{
+  "name": "external-node-package",
+  "version": "1.0.0",
+  "description": "To be used as tests when adding this as a dependency: yarn add https://github.com/gastonfournier/external-node-package.git#main",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "echo \"Prepare script\"",
+    "preinstall": "echo \"Preinstall script\"",
+    "install": "echo \"Install script\"",
+    "postinstall": "echo \"POST install script\"",
+    "build": "echo \"BUILD script\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gastonfournier/external-node-package.git"
+  },
+  "author": "gastonfournier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gastonfournier/external-node-package/issues"
+  },
+  "homepage": "https://github.com/gastonfournier/external-node-package#readme"
+}
